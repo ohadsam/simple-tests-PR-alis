@@ -40,6 +40,10 @@ public class AppTest extends TestCase {
     public void testAppC() {
         assertTrue(true);
     }
+    
+    public void testAppD() {
+        assertTrue(true);
+    }
 
     public void testWillFailOnParameter() {
         String value = System.getProperty("fail");
